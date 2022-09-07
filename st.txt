@@ -1,0 +1,274 @@
+<section class="shop-container shop">
+                <h2 class="section-title">Beverages</h2>
+                <!-- content -->
+                <div class="shop-content">
+                    <!-- box 1 -->
+                    <div class="product-box">
+                        <img src="images/burgers/burgers 1.jpg" alt="" class="product-img">
+                        <h2 class="product-title">CHAPMAN</h2>
+                        <span class="price">$25</span>
+                        <i class="fa fa-shopping-cart shopping-cart"></i>
+                    </div>
+                     <!-- box 2 -->
+                     <div class="product-box">
+                        <img src="images/burgers/burgers 1.jpg" alt="" class="product-img">
+                        <h2 class="product-title">CHAPMAN</h2>
+                        <span class="price">$25</span>
+                        <i class="fa fa-shopping-cart shopping-cart"></i>
+                    </div>
+                     <!-- box 3 -->
+                     <div class="product-box">
+                        <img src="images/burgers/burgers 1.jpg" alt="" class="product-img">
+                        <h2 class="product-title">CHAPMAN</h2>
+                        <span class="price">$25</span>
+                        <i class="fa fa-shopping-cart shopping-cart"></i>
+                    </div>
+                     <!-- box 4 -->
+                     <div class="product-box">
+                        <img src="images/burgers/burgers 1.jpg" alt="" class="product-img">
+                        <h2 class="product-title">CHAPMAN</h2>
+                        <span class="price">$25</span>
+                        <i class="fa fa-shopping-cart shopping-cart"></i>
+                    </div>
+                     <!-- box 5 -->
+                     <div class="product-box">
+                        <img src="images/burgers/burgers 1.jpg" alt="" class="product-img">
+                        <h2 class="product-title">CHAPMAN</h2>
+                        <span class="price">$25</span>
+                        <i class="fa fa-shopping-cart shopping-cart"></i>
+                    </div>
+                     <!-- box 6 -->
+                     <div class="product-box">
+                        <img src="images/burgers/burgers 1.jpg" alt="" class="product-img">
+                        <h2 class="product-title">CHAPMAN</h2>
+                        <span class="price">$25</span>
+                        <i class="fa fa-shopping-cart shopping-cart"></i>
+                    </div>
+                     <!-- box 4 -->
+                     <div class="product-box">
+                        <img src="images/burgers/burgers 1.jpg" alt="" class="product-img">
+                        <h2 class="product-title">CHAPMAN</h2>
+                        <span class="price">$25</span>
+                        <i class="fa fa-shopping-cart shopping-cart"></i>
+                    </div>
+                     <!-- box 8 -->
+                     <div class="product-box">
+                        <img src="images/burgers/burgers 1.jpg" alt="" class="product-img">
+                        <h2 class="product-title">CHAPMAN</h2>
+                        <span class="price">$25</span>
+                        <i class="fa fa-shopping-cart shopping-cart"></i>
+                    </div>
+                </div>
+            </section>
+<div class="one">
+
+                <div class="box">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="images/beverages/beverages 4.jpg" alt="" class="my-img ss">
+                    <h3>Chapman</h3>
+                    <span>$15.99</span>
+                </div>
+                <div class="box uni">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="images/beverages/beverages 7.jpg" alt="" class="my-img tt">
+                    <h3>Chapman</h3>
+                    <span>$15.99</span>
+                </div>
+                <div class="box spec">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="images/beverages/beverages 8.jpg" alt="" class="my-img rr">
+                    <h3>Chapman</h3>
+                    <span>$15.99</span>
+                </div>
+
+            </div>
+            <div class="one">
+                <div class="box">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="images/beverages/beverages 4.jpg" alt="" class="my-img ss">
+                    <h3>Chapman</h3>
+                    <span>$15.99</span>
+                </div>
+
+                <div class="box uni">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="images/beverages/beverages 7.jpg" alt="" class="my-img tt">
+                    <h3>Chapman</h3>
+                    <span>$15.99</span>
+                </div>
+
+                <div class="box spec">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="images/beverages/beverages 8.jpg" alt="" class="my-img rr">
+                    <h3>Chapman</h3>
+                    <span>$15.99</span>
+                </div>
+
+            </div>
+            <div class="one">
+                <div class="box">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="images/beverages/beverages 4.jpg" alt="" class="my-img ss">
+                    <h3>Chapman</h3>
+                    <span>$15.99</span>
+                </div>
+                <div class="box uni">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="images/beverages/beverages 7.jpg" alt="" class="my-img tt">
+                    <h3>Chapman</h3>
+                    <span>$15.99</span>
+                </div>
+                <div class="box spec">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <img src="images/beverages/beverages 8.jpg" alt="" class="my-img rr">
+                    <h3>Chapman</h3>
+                    <span>$15.99</span>
+                </div>
+
+
+
+            </div>
+            <-------------------css------------------->
+            .one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.my-img {
+    height: 200px;
+    margin-left: 40px;
+}
+
+.ss {
+    margin-left: 50px;
+}
+
+.rr {
+    margin-left: 200px;
+}
+
+.tt {
+    margin-left: 100px;
+}
+
+
+/* testing testing */
+.box {
+    /* padding: 2.5rem; */
+    /* background: #fff; */
+    /* border-radius: .5rem; */
+    /* border: .1rem solid rgba(0, 0, 0, .2); */
+    /* box-shadow: var(--box-shadow); */
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    /* margin-left: 40px; */
+    width: 300px;
+}
+
+.spec {
+    margin-left: 50px;
+}
+
+.uni {
+    margin-left: 30px;
+}
+
+.box .fa-shopping-cart,
+.box .fa-heart {
+    position: absolute;
+    top: 1.5rem;
+    background: #eee;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.box .fa-shopping-cart:hover,
+.box .fa-heart:hover {
+    background: var(--green);
+    color: #fff;
+}
+
+.box .fa-shopping-cart {
+    right: -15rem;
+}
+
+.box .fa-heart {
+    left: -15rem;
+}
+
+.box:hover .fa-shopping-cart {
+    right: 1.5rem;
+}
+
+.box:hover .fa-heart {
+    left: 1.5rem;
+}
+
+.box img {
+    /* height: 17rem;
+    margin: 1rem 0; */
+    height: 200px;
+    margin-left: 40px;
+}
+
+.box h3 {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 400;
+    word-break: break-word;
+}
+
+/* .box .stars {
+    padding: 1rem 0;
+} */
+
+/* .box .stars i {
+    font-size: 1.7rem;
+    color: var(--green);
+} */
+
+.box span {
+    color: var(--green);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    word-break: break-word;
+}
+
+/* testing testing */
+.shop-container{
+padding: 4rem 0 3rem;
+}
+.section-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.shop{
+    margin-top: 2rem;
+}
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    justify-content: space-around;
+    /* padding-left: 300px; */
+}
+.product-img{
+    width: 400px;
+}

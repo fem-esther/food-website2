@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+
+    <!-- css file link -->
+
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/categories.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/categories.css">
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome link -->
+    <!-- <script src="https://kit.fontawesome.com/378a7ca952.js" crossorigin="anonymous"></script> -->
+</head>
+<!-- header starts here -->
+<header>
+    <a href="./index.html" class="logo"><i class="fa-solid fa-utensils"></i>G-food</a>
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#order">Order</a>
+        <a href="./cart.html">Cart</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fa fa-bars" id="menu-bars"></i>
+        <i class="fa fa-search" id="search-icon"></i>
+        <!-- <a href="" class="fa fa-heart"></a> -->
+        <a href="./cart.html" class="fa fa-shopping-cart cart"></a>
+        <div class="cart-amount">0</div>
+    </div>
+</header>
+<!-- header ends here -->
+
+<body>
+
+    <!-- desktop view -->
+    <div id="container" class="container">
+        <!-- beginning/menu section starts -->
+        <div id="menu">
+            <div class="brand-logo">
+                <h1>Foodord</h1>
+            </div>
+            <ul class="menu-item">
+                <li href="#" id="dishes">Featured Favourites</li>
+                <li href="#" id="about">Beverages</li>
+                <li href="#" id="services">Combo Meals</li>
+                <li id="orders">G-foods Bakery</li>
+                <li href="#" id="wishlist">Breakfast</li>
+                <li href="#" id="address">Desserts & Shakes</li>
+                <li href="#" id="dishes">Snacks & Sides</li>
+                <li href="#" id="about">Burgers</li>
+                <li href="#" id="services">Happy Meals</li>
+                <li id="orders">Sample Meals</li>
+                <li href="#" id="wishlist">Sandwiches</li>
+                <li href="#" id="address">Or Dishes</li>
+            </ul>
+        </div>
+        <!-- middle/food section starts -->
+        <div id="food-container">
+            <!-- second section starts -->
+            <div id="cart-page" class="cart-toggle">
+                <p id="cart-title">Cart Items</p>
+
+                <table>
+                    <thead>
+                        <td>Item</td>
+                        <td>Name</td>
+                        <td>Quantity</td>
+                        <td>Price</td>
+                        <td>Remove</td>
+                    </thead>
+                    <tbody id="table-body" class="cart-item">
+
+
+                        <tr class="cart-row">
+                            <td><img src="/images/h-mcdonalds-Sausage-Burrito-2-Extra-Value-Meals_1-4-product-tile-desktop.jpg"
+                                    alt=""></td>
+                            <td>Sausage Burrito</td>
+                            <td class="increment">
+                                <button class="decrease-item">-</button>
+                                <span class="value" id="one">1</span>
+                                <button class="increase-item">+</button>
+                                <!-- <input type="number" value="2" class="volume"> -->
+                            </td>
+                            <td class="cart-price">$40</td>
+                            <td><button class="btn" id="remove">Delete</button></td>
+                        </tr>
+                        <tr class="cart-row">
+                            <td><img src="/images/h-mcdonalds-Sausage-Burrito-2-Extra-Value-Meals_1-4-product-tile-desktop.jpg"
+                                    alt=""></td>
+                            <td>Sausage Burrito</td>
+                            <td class="increment">
+                                <button class="decrease-item" >-</button>
+                                <span class="value">1</span>
+                                <button class="increase-item" >+</button>
+                            
+                            </td>
+                            <td class="cart-price">$40</td>
+                            <td><button class="btn" id="remove">Delete</button></td>
+                        </tr>
+                        <tr class="cart-row">
+                            <td><img src="/images/h-mcdonalds-Quarter-Pounder-with-Cheese-Extra-Value-Meals_1-4-product-tile-desktop.jpg"
+                                    alt=""></td>
+                            <td>Cheese</td>
+                            <td class="increment">
+                                <button class="decrease-item">-</button>
+                                <span class="value">1</span>
+                                <button class="increase-item">+</button>
+                            
+                            </td>
+                            <td class="cart-price">$10</td>
+                            <td><button class="btn" id="remove">Delete</button></td>
+                        </tr>
+                        <tr class="cart-row">
+                            <td><img src="/images/h-mcdonalds-Filet-O-Fish-Extra-Value-Meals_1-4-product-tile-desktop.jpg"
+                                    alt=""></td>
+                            <td>Filet o fish</td>
+                            <td class="increment">
+                                <button class="decrease-item">-</button>
+                                <span class="value">1</span>
+                                <button class="increase-item">+</button>
+                            
+                            </td>
+                            <td class="cart-price">$10</td>
+                            <td><button class="btn" id="remove">Delete</button></td>
+                        </tr>
+                    </tbody>
+                    <tr>
+                        <td><span></span></td>
+                        <td><span></span></td>
+                        <td><span></span></td>
+                        <td><span></span></td>
+                        <td>
+                            <p id="m-total-amount">Total Amount: $ 100</p>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <!-- second section ends -->
+            <!-- t-rd/steps section starts -->
+
+            <!-- t-rd/steps section ends -->
+
+        </div>
+
+
+
+
+        <!-- middle/food section ends -->
+
+
+
+        <!-- end/cart section starts -->
+        <!-- end/cart section ends -->
+    </div>
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">india</a>
+                <a href="#">japan</a>
+                <a href="#">russia</a>
+                <a href="#">USA</a>
+                <a href="#">france</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="./categories.html">dishes</a>
+                <a href="#about">about</a>
+                <a href="./categories.html">menu</a>
+                <a href="#review">reivew</a>
+                <a href="#order">order</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+234-818-374-5699</a>
+                <a href="#">+234-706-391-6978</a>
+                <a href="#">estilogofemi@gmail.com</a>
+                <a href="#">estilogofemi@gmail.com</a>
+                <a href="#">Lagos, Nigeria - 400104</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> copyright @ 2022 by <span>femest webdev</span> </div>
+
+    </section>
+
+
+
+
+
+    <!-- <script src="./cart.js"></script> -->
+    <!-- <script src="./js/index.js"></script> -->
+    <script src="./cart.js"></script>
+</body>
+
+</html>
